@@ -8,11 +8,27 @@
     "DC": 0.25
   },
   "pre_filt": "A-weighting-lp",
+  "skip_con": 0,
   "device": "MOD-AUDIO-UG",
   "file_name": "aidadsp-auto",
   "params": {
     "n": 2,
     "datasets": [
+      {
+        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain1.0_tone1.0.wav",
+        "params": [1.0, 1.0]
+      },
+      {
+        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.5_tone0.0.wav",
+        "params": [0.5, 0.0]
+      },
+      {
+        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.5_tone0.7.wav",
+        "params": [0.5, 0.7]
+      },
       {
         "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
         "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.0_tone1.0.wav",
@@ -65,16 +81,6 @@
       },
       {
         "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain1.0_tone1.0.wav",
-        "params": [1.0, 1.0]
-      },
-      {
-        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.5_tone0.0.wav",
-        "params": [0.5, 0.0]
-      },
-      {
-        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
         "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.5_tone0.1.wav",
         "params": [0.5, 0.1]
       },
@@ -97,11 +103,6 @@
         "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
         "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.5_tone0.6.wav",
         "params": [0.5, 0.6]
-      },
-      {
-        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.5_tone0.7.wav",
-        "params": [0.5, 0.7]
       },
       {
         "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
