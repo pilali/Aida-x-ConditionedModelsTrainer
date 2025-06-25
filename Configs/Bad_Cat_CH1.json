@@ -1,4 +1,4 @@
-{
+    {
   "model": "SimpleRNN",
   "hidden_size": 12,
   "num_layers": 1,
@@ -16,103 +16,108 @@
     "datasets": [
       {
         "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain1.0_tone1.0.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level1.0_edge1.0.wav",
         "params": [1.0, 1.0]
       },
       {
         "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.5_tone0.0.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level1.0_edge0.0.wav",
+        "params": [1.0, 0.0]
+      },
+      {
+        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level0.9_edge0.9.wav",
+        "params": [0.9, 0.9]
+      },
+      {
+        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level0.9_edge0.1.wav",
+        "params": [0.9, 0.1]
+      },
+      {
+        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level0.1_edge0.1.wav",
+        "params": [0.1, 0.1]
+      },
+      {
+        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level0.2_edge0.8.wav",
+        "params": [0.2, 0.8]
+      },
+      {
+        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level0.3_edge0.3.wav",
+        "params": [0.3, 0.3]
+      },
+      {
+        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level0.4_edge0.7.wav",
+        "params": [0.4, 0.7]
+      },
+      {
+        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level0.0_edge0.5.wav",
+        "params": [0.0, 0.5]
+      },
+      {
+        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level0.5_edge0.0.wav",
         "params": [0.5, 0.0]
       },
       {
         "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.5_tone0.7.wav",
-        "params": [0.5, 0.7]
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level0.6_edge0.2.wav",
+        "params": [0.6, 0.2]
       },
       {
         "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.0_tone1.0.wav",
-        "params": [0.0, 1.0]
-      },
-      {
-        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.1_tone1.0.wav",
-        "params": [0.1, 1.0]
-      },
-      {
-        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.2_tone1.0.wav",
-        "params": [0.2, 1.0]
-      },
-      {
-        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.3_tone1.0.wav",
-        "params": [0.3, 1.0]
-      },
-      {
-        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.4_tone1.0.wav",
-        "params": [0.4, 1.0]
-      },
-      {
-        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.5_tone1.0.wav",
-        "params": [0.5, 1.0]
-      },
-      {
-        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.6_tone1.0.wav",
-        "params": [0.6, 1.0]
-      },
-      {
-        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.7_tone1.0.wav",
-        "params": [0.7, 1.0]
-      },
-      {
-        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.8_tone1.0.wav",
-        "params": [0.8, 1.0]
-      },
-      {
-        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.9_tone1.0.wav",
-        "params": [0.9, 1.0]
-      },
-      {
-        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.5_tone0.1.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level0.5_edge0.1.wav",
         "params": [0.5, 0.1]
       },
       {
         "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.5_tone0.2.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level0.5_edge0.2.wav",
         "params": [0.5, 0.2]
       },
       {
         "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.5_tone0.3.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level0.5_edge0.3.wav",
         "params": [0.5, 0.3]
       },
       {
         "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.5_tone0.4.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level0.5_edge0.4.wav",
         "params": [0.5, 0.4]
       },
       {
         "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.5_tone0.6.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level0.5_edge0.5.wav",
+        "params": [0.5, 0.5]
+      },
+      {
+        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level0.5_edge0.6.wav",
         "params": [0.5, 0.6]
       },
       {
         "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.5_tone0.8.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level0.5_edge0.7.wav",
+        "params": [0.5, 0.7]
+      },
+      {
+        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level0.5_edge0.8.wav",
         "params": [0.5, 0.8]
       },
       {
         "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
-        "target": "/content/Aida-x-ConditionedModelsTrainer/target_gain0.5_tone0.9.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level0.5_edge0.9.wav",
         "params": [0.5, 0.9]
+      },
+      {
+        "input": "/content/Aida-x-ConditionedModelsTrainer/input.wav",
+        "target": "/content/Aida-x-ConditionedModelsTrainer/target_level0.5_edge1.0.wav",
+        "params": [0.5, 1.0]
       }
     ],
     "csv": "/content/Aida-x-ConditionedModelsTrainer/Configs/Csv/modaudioug.csv"
