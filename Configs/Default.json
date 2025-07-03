@@ -3,7 +3,7 @@
   "hidden_size": 16,
   "num_layers": 1,
   "unit_type": "LSTM",
-  "loss_functions": {
+  "loss_fcns": {
     "ESR": 0.75,
     "DC": 0.25
   },
@@ -44,5 +44,5 @@
     "dataset": "Mod Audio UG",
     "license": "CC BY-NC-ND 4.0"
   },
-  "normalization": true
+  "norm": true
 }
