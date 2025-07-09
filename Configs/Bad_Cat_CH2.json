@@ -155,5 +155,5 @@
     "dataset": "Mod Audio UG",
     "license": "CC BY-NC-ND 4.0"
   },
-  "normalization": false
+  "norm": false
 }
