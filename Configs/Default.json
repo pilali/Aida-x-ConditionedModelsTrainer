@@ -3,8 +3,8 @@
   "hidden_size": 16,
   "num_layers": 1,
   "unit_type": "LSTM",
-  "loss_functions": {
-    "ESR": 0.75,
+  "loss_fcns": {
+    "ESRPre": 0.75,
     "DC": 0.25
   },
   "pre_filt": "A-weighting-lp",
@@ -34,15 +34,15 @@
     },
     "loudness": 0.0,
     "gain": 1.0,
-    "name": "My Awesome Capture",
-    "modeled_by": "Aida DSP",
+    "name": "Mesa DC-5 ch1",
+    "modeled_by": "Pilal",
     "gear_type": "Amp",
-    "gear_make": "Acme Corp",
-    "gear_model": "Audio Stuff",
-    "tone_type": "Clean / Breakup / Dist / High-Gain",
+    "gear_make": "Mesa/Boogie",
+    "gear_model": "Dual Caliber DC-5",
+    "tone_type": "Clean / Dist",
     "samplerate": 48000,
     "dataset": "Mod Audio UG",
     "license": "CC BY-NC-ND 4.0"
   },
-  "normalization": true
+  "norm": false
 }
